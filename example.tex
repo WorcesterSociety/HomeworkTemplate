@@ -1,0 +1,54 @@
+\documentclass[11pt]{awe-homework}
+
+% Configuration
+\doctitle{Example Homework}
+\name{Aaron Weiss}
+\email{aaronweiss@cs.umass.edu}
+
+\begin{document}
+
+\makeheader
+
+\question{1.1}{%
+  Dolores quae rerum est commodi aut. Nihil itaque voluptates doloribus dolor dolore quos natus. Ut dolorem omnis consequuntur ullam atque consequatur. Eos omnis ratione voluptatem. Omnis earum eligendi placeat voluptas. Qui odio esse illo consequatur sit enim.
+}
+
+\begin{minted}{scala}
+  object HelloWorld extends App {
+    def fib(n: Int): Int = n match {
+      case 0 => 0
+      case 1 => 1
+      case _ => fib(n) + fib(n - 1)
+    }
+    println(s"Hello, #${fib(5)}.")
+  }
+\end{minted}
+
+\question{1.2}{%
+  Cras \href{http://duckduckgo.com}{sagittis felis} elit, eu congue lorem aliquet fermentum. Fusce ornare convallis justo vitae hendrerit. Suspendisse id bibendum enim. Morbi eleifend congue viverra. Curabitur efficitur arcu ac quam sagittis facilisis. Donec porttitor viverra turpis. Mauris rutrum sed quam ac tempor. Cras accumsan vitae nisi in consequat. Donec dignissim ex ac molestie ornare. Vivamus sollicitudin nisi non odio condimentum, quis consectetur nibh interdum. Suspendisse vel erat ligula. Vestibulum rutrum congue sem, in pellentesque felis. Proin id dictum lorem, nec elementum tortor.
+}
+
+Donec commodo, nulla et dapibus interdum, est enim dictum nibh, sed feugiat augue velit a nulla. Vestibulum eget neque venenatis, convallis enim eu, commodo ex. Sed quis mi lacinia purus fringilla fringilla. Morbi vitae lacinia velit. Fusce porta lacinia mi a mollis. Maecenas sed lorem dictum, sollicitudin est ac, rhoncus purus. Ut tempus accumsan odio, a malesuada nibh. Nullam dolor tortor, ornare in condimentum porttitor, suscipit eu enim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus vitae turpis metus. Morbi elementum sit amet orci ultricies auctor. Maecenas volutpat nibh quis convallis convallis. Fusce sit amet venenatis nibh, ut pellentesque lectus. Donec ornare mauris nec nunc molestie, a dictum mi ullamcorper. Nam ut nisi vitae massa vehicula auctor at ornare quam.
+
+Morbi id ultrices arcu. Vestibulum tempus sit amet massa non sodales. Vestibulum in justo tincidunt, rhoncus lorem at, molestie neque. Vestibulum blandit scelerisque enim finibus ornare. Cras volutpat ex in lorem tincidunt, eget maximus urna tincidunt. Vestibulum vestibulum sapien enim, eu tristique ligula fermentum sed. Mauris risus diam, dictum sit amet quam condimentum, luctus pellentesque odio. Etiam pretium mattis malesuada. Proin ut risus in est bibendum vehicula. Nunc feugiat vestibulum egestas. Suspendisse vitae feugiat dui.
+
+Duis ullamcorper accumsan fringilla. Suspendisse imperdiet lobortis nisl nec volutpat. Quisque congue commodo enim, at aliquam nulla blandit ac. Sed ut ipsum eu mi faucibus iaculis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla rutrum ligula libero, eget iaculis diam mollis in. Suspendisse ut felis elit. Integer laoreet elit ipsum. Sed in sapien semper ante rutrum sollicitudin ut eu nunc. Nullam ac scelerisque nibh. Etiam est tellus, ultrices ut dolor at. Aenean quis varius elit, sed auctor ante. Nunc rutrum quis nisl at dictum.
+
+\pagebreak
+
+\question{1.3}{%
+  Mauris non tortor id mi porta tristique. Aenean in augue elit. Quisque quis malesuada purus, non viverra magna. Duis pulvinar eget quam ac egestas. Quisque tincidunt turpis laoreet libero ultrices rutrum. Aliquam erat volutpat. Morbi lobortis ac enim a malesuada. Nullam sit amet porttitor sapien, vitae finibus orci.
+  \begin{enumerate}[threecol]
+  \item cursus
+  \item luctus
+  \item lacus
+  \end{enumerate}
+}
+
+\begin{enumerate}
+\item Cras orci ex, euismod sed sapien in, porttitor sagittis felis. Praesent et magna consequat, fermentum mi in, sodales ex. Pellentesque tempor auctor fringilla. Sed sagittis orci at lorem egestas, eget consequat lacus fringilla. Maecenas a lobortis metus. Pellentesque fringilla vehicula quam, et faucibus diam volutpat non. Vestibulum id purus mauris. Fusce urna orci, suscipit quis purus id, cursus aliquet sapien. Phasellus sit amet sem odio. Nulla sit amet turpis quis arcu molestie scelerisque. Sed dignissim nulla a nibh interdum, et cursus magna tincidunt. Mauris aliquam tincidunt mattis. Nam sollicitudin condimentum nulla vel interdum. Suspendisse tellus sapien, mattis non nulla nec, posuere scelerisque felis.
+\item Donec rutrum in felis varius faucibus. Aliquam a leo felis. Suspendisse mollis enim a ligula ultricies faucibus. Nulla vitae leo ac quam luctus condimentum. Nam nunc ligula, lacinia in vestibulum non, feugiat quis turpis. Praesent elit quam, efficitur a eros ut, rhoncus consequat magna. Nullam volutpat elit tellus, vel placerat erat efficitur eget. Quisque libero tortor, suscipit eget odio non, pretium volutpat orci. Nunc at urna vehicula, varius eros ac, congue odio. Quisque fringilla sapien nisl, vitae ultricies tortor pretium sed. Praesent felis arcu, auctor id imperdiet in, vehicula at lectus. Cras faucibus, odio sit amet rutrum ullamcorper, ligula massa bibendum massa, sed dapibus risus massa molestie est. Suspendisse potenti. Nunc sit amet eros in nunc luctus tristique. Morbi ex augue, scelerisque eu libero ac, pharetra efficitur lectus. Nunc fermentum auctor nisl et maximus.
+\item Suspendisse posuere ultricies diam, sed pharetra ante consequat eu. Vivamus rutrum metus ut lacinia eleifend. Nullam pellentesque sapien vitae ultrices facilisis. Phasellus pretium gravida nisi, id rutrum justo sollicitudin pharetra. Ut vel urna tempor, volutpat leo id, sollicitudin lorem. Proin rutrum nec eros eu interdum. Suspendisse nec dictum ex. Aenean et justo pharetra, scelerisque metus ac, vulputate justo. Fusce posuere nunc ac bibendum sagittis. Nam dapibus, nibh vel scelerisque suscipit, nulla orci rutrum nibh, in mollis turpis massa at nulla. In hendrerit tortor sed auctor cursus. Sed mattis est odio, eget congue quam aliquet a.
+\end{enumerate}
+
+\end{document}
