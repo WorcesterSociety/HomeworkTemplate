@@ -4,6 +4,11 @@ This is a homework template developed by [Aaron Weiss](https://aaronweiss.us) fo
 computer science related purposes. It imports a number of fundamental packages, and provides some
 basic structure to the document beyond the `article` class.
 
+### Getting Started ###
+
+To get started, clone this repository anywhere and run `./init.sh name`. This script will remove
+all of the repository artifacts excluding the template, and rename `example.tex` to `name.tex`.  
+
 ### Requirements ###
 
 To use this template with syntax highlighting, you must have [pygments](http://pygments.org)
