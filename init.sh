@@ -9,6 +9,6 @@ else
     sed s/example/$NAME/g Makefile > Makefile.new
     mv Makefile.new Makefile
     mv example.tex $NAME.tex
-    rm -rf .git LICENSE README.md
+    rm -rf .git .gitignore LICENSE README.md
     rm init.sh
 fi
