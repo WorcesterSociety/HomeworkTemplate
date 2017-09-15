@@ -40,6 +40,8 @@
 \RequirePackage{hyphenat}
 % Even more math symbols.
 \RequirePackage{mathabx}
+% Typesetting formulas and inference rules.
+\RequirePackage{mathpartir}
 % Space saving efforts.
 \RequirePackage{microtype}
 % Syntax highlighting.
